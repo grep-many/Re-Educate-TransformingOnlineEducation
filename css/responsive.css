@@ -1,0 +1,52 @@
+body{
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    height: 500px;
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    overflow: hidden;
+}
+.rightNav{
+    display: flex;
+    justify-content: center;
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+#search{
+    width: 200px;
+    margin-left: 10px;
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.section{
+    flex-direction: column-reverse;
+}
+.text-small{
+    text-align: center;
+}
+.text-big{
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
+.paras {
+    padding: 0px;
+}
